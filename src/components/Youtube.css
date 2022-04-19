@@ -1,0 +1,11 @@
+.Box{
+    display: block;
+    position: relative;
+    padding: 5px;
+    background-color: #2e2e2e;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}

@@ -1,0 +1,13 @@
+input[type="text"] {
+  width: 470px;
+  padding: 5px;
+  outline: none;
+  color: #fff;
+  background-color: #323232;
+}
+p {
+  font-size: 12px;
+}
+input:focus {
+  background-color: #323232;
+}

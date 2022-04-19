@@ -1,0 +1,26 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+body {
+  background-color: #2E2E2E;
+  color: #fff;
+}
+.article-container {
+  background-color: #2E2E2E;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+}
+.test {
+  padding: 27px;
+  font-size: 100px;
+}
+.article-container h1 {
+  padding-top: 27px;
+  font-family:'Times New Roman', Times, serif;
+}

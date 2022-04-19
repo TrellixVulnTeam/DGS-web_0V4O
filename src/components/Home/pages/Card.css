@@ -1,0 +1,68 @@
+
+.Card {
+    display: flexbox;
+    border: 1px solid #999;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 27px;
+    margin-top: 17px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.titleX {
+    display: inline-flex;
+    justify-content: space-between;
+}
+.titleX h4{
+    margin-right: 10px;
+    margin-top: 13px;
+    font-size: 27px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.titleX p{
+    padding-top: 12px;
+    margin-top: 12px;
+    color: #777;
+    font-size: 11px;
+}
+.card-body{
+    display: flex;
+}
+.card-body p {
+    font-size: 23px;
+    color: #fff;
+    letter-spacing: 1px;
+    float: left;
+}
+.titleX img {
+    height: 75px;
+    width: 75px;
+    border-radius: 100%;
+    /* cursor: pointer; */
+
+}
+.news ul {
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   margin: 17px;
+}
+
+@media screen and (max-width:790px){
+    .titleX h4{
+        font-size: 19px;
+    }
+    .card-body p {
+        font-size: 13px;
+        
+    }
+}
